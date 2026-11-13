@@ -1,0 +1,144 @@
+{
+  "demoUser": {
+    "openId": "demo-mawhebty-user",
+    "name": "Maya Demo",
+    "email": "maya.demo@mawhebty.local",
+    "loginMethod": "demo-seed",
+    "role": "user"
+  },
+  "childProfile": {
+    "childName": "Maya",
+    "age": 9,
+    "guardianName": "Demo Guardian",
+    "locale": "en",
+    "points": 1240,
+    "streak": 7
+  },
+  "talents": [
+    {
+      "slug": "creative-arts",
+      "name": "Creative Arts",
+      "nameAr": "الفنون الإبداعية",
+      "description": "Turn big feelings into bold colors, stories, and beautiful ideas.",
+      "descriptionAr": "حوّل مشاعرك وأفكارك إلى ألوان وقصص وابتكارات جميلة.",
+      "category": "Expression",
+      "icon": "✦",
+      "accent": "coral",
+      "totalLessons": 8
+    },
+    {
+      "slug": "young-inventors",
+      "name": "Young Inventors",
+      "nameAr": "المخترعون الصغار",
+      "description": "Ask why, build prototypes, and make everyday things smarter.",
+      "descriptionAr": "اسأل لماذا، ابنِ نماذج أولية، واجعل الأشياء اليومية أذكى.",
+      "category": "Build & solve",
+      "icon": "⌁",
+      "accent": "cyan",
+      "totalLessons": 10
+    },
+    {
+      "slug": "story-lab",
+      "name": "Story Lab",
+      "nameAr": "مختبر الحكايات",
+      "description": "Find your voice through characters, words, and curious worlds.",
+      "descriptionAr": "اكتشف صوتك من خلال الشخصيات والكلمات والعوالم المدهشة.",
+      "category": "Communication",
+      "icon": "◌",
+      "accent": "lime",
+      "totalLessons": 6
+    },
+    {
+      "slug": "move-and-groove",
+      "name": "Move & Groove",
+      "nameAr": "الحركة والإيقاع",
+      "description": "Explore rhythm, coordination, and the joy of moving your way.",
+      "descriptionAr": "استكشف الإيقاع والتناسق ومتعة الحركة بطريقتك.",
+      "category": "Energy",
+      "icon": "↗",
+      "accent": "violet",
+      "totalLessons": 7
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "When you have a free afternoon, what sounds most exciting?",
+      "promptAr": "عندما يكون لديك وقت فراغ، ما الشيء الأكثر إثارة؟",
+      "dimension": "motivation",
+      "orderIndex": 1,
+      "options": [
+        { "label": "Making something colorful", "labelAr": "صنع شيء مليء بالألوان", "talent": "creative-arts" },
+        { "label": "Building a clever solution", "labelAr": "بناء حل ذكي", "talent": "young-inventors" },
+        { "label": "Writing a mini adventure", "labelAr": "كتابة مغامرة صغيرة", "talent": "story-lab" },
+        { "label": "Trying a new movement", "labelAr": "تجربة حركة جديدة", "talent": "move-and-groove" }
+      ]
+    },
+    {
+      "prompt": "A tricky challenge makes you want to…",
+      "promptAr": "التحدي الصعب يجعلك تريد أن…",
+      "dimension": "problem-solving",
+      "orderIndex": 2,
+      "options": [
+        { "label": "Sketch a few possibilities", "labelAr": "ترسم بعض الاحتمالات", "talent": "creative-arts" },
+        { "label": "Test how it works", "labelAr": "تختبر كيف يعمل", "talent": "young-inventors" },
+        { "label": "Explain it with a story", "labelAr": "تشرحه من خلال قصة", "talent": "story-lab" },
+        { "label": "Act it out", "labelAr": "تمثله بحركة", "talent": "move-and-groove" }
+      ]
+    },
+    {
+      "prompt": "Which compliment feels most like you?",
+      "promptAr": "أي مجاملة تشبهك أكثر؟",
+      "dimension": "identity",
+      "orderIndex": 3,
+      "options": [
+        { "label": "You notice beautiful details", "labelAr": "تلاحظ التفاصيل الجميلة", "talent": "creative-arts" },
+        { "label": "You never give up on a puzzle", "labelAr": "لا تستسلم أمام الألغاز", "talent": "young-inventors" },
+        { "label": "You make ideas easy to understand", "labelAr": "تجعل الأفكار سهلة الفهم", "talent": "story-lab" },
+        { "label": "You bring energy to the room", "labelAr": "تضيف طاقة للمكان", "talent": "move-and-groove" }
+      ]
+    },
+    {
+      "prompt": "What would you add to your dream clubhouse?",
+      "promptAr": "ماذا ستضيف إلى نادي أحلامك؟",
+      "dimension": "imagination",
+      "orderIndex": 4,
+      "options": [
+        { "label": "A giant art wall", "labelAr": "حائط فنون كبير", "talent": "creative-arts" },
+        { "label": "A gadget workshop", "labelAr": "ورشة أدوات ذكية", "talent": "young-inventors" },
+        { "label": "A shelf of magical books", "labelAr": "رف كتب سحرية", "talent": "story-lab" },
+        { "label": "A music and movement floor", "labelAr": "مساحة موسيقى وحركة", "talent": "move-and-groove" }
+      ]
+    },
+    {
+      "prompt": "When you learn something new, you prefer to…",
+      "promptAr": "عندما تتعلم شيئًا جديدًا، تفضّل أن…",
+      "dimension": "learning-style",
+      "orderIndex": 5,
+      "options": [
+        { "label": "See it and make it", "labelAr": "تراه وتصنعه", "talent": "creative-arts" },
+        { "label": "Take it apart and rebuild it", "labelAr": "تفككه وتعيد بناءه", "talent": "young-inventors" },
+        { "label": "Talk it through", "labelAr": "تتحدث عنه", "talent": "story-lab" },
+        { "label": "Practice it with your body", "labelAr": "تتدرب عليه بجسمك", "talent": "move-and-groove" }
+      ]
+    }
+  ],
+  "progress": [
+    { "talentSlug": "creative-arts", "completedLessons": 5, "totalLessons": 8 },
+    { "talentSlug": "young-inventors", "completedLessons": 2, "totalLessons": 10 }
+  ],
+  "achievements": [
+    { "code": "first-spark", "title": "First Spark", "description": "Completed the first talent check.", "icon": "✦" },
+    { "code": "seven-day-streak", "title": "Seven Day Streak", "description": "Returned for seven days in a row.", "icon": "🔥" },
+    { "code": "curious-builder", "title": "Curious Builder", "description": "Completed two inventor lessons.", "icon": "⌁" },
+    { "code": "creative-eye", "title": "Creative Eye", "description": "Finished a creative arts activity.", "icon": "◌" }
+  ],
+  "notifications": [
+    { "title": "Nori left you a note", "body": "Your next creative arts lesson is ready." },
+    { "title": "New badge unlocked", "body": "You earned the Creative Eye badge." }
+  ],
+  "sampleAssessment": {
+    "answers": ["creative-arts", "young-inventors", "creative-arts", "story-lab", "creative-arts"],
+    "primaryTalent": "creative-arts",
+    "score": 94
+  }
+}
