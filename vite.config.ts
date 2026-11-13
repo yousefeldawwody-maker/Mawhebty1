@@ -1,4 +1,4 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "node:path";
-export default defineConfig({ plugins:[react()], resolve:{alias:{"@":path.resolve(process.cwd(),"client/src"),"@shared":path.resolve(process.cwd(),"shared")}}, server:{host:"0.0.0.0"} });
+export default defineConfig({ base: "/Mawhebty1/", plugins:[react()], resolve:{alias:{"@":path.resolve(process.cwd(),"client/src"),"@shared":path.resolve(process.cwd(),"shared")}}, server:{host:"0.0.0.0"} });
