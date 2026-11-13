@@ -1,0 +1,3 @@
+import type { VercelRequest, VercelResponse } from "@vercel/node";
+import { db } from "./_db";
+export default async function handler(req:VercelRequest,res:VercelResponse){if(req.method!=="POST")return res.status(405).json({error:"method_not_allowed"});try{const {talentSlug,completedLessons,totalLessons}=req.body||{};const r=await db().query("insert into progress_records(user_id,talent_slug,completed_lessons,total_lessons) values($1,$2,$3,$4) on conflict(user_id,talent_slug) do update set completed_lessons=excluded.completed_lessons,total_lessons=excluded.total_lessons returning *",[1,talentSlug,completedLessons,totalLessons]);res.json(r.rows[0])}catch{res.status(500).json({error:"database_error"})}}
